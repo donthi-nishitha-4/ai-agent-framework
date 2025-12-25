@@ -38,18 +38,19 @@ An AI agent is a system that can:
 
 ## 🏗️ High-Level Architecture
 User Input 
-↓ 
+->
 Task Analyzer 
-↓ 
+->
 Planner 
-↓ 
+->
 Reasoning Engine 
-↓ 
+-> 
 Tool Executor 
-↓ 
+->
 Memory Module 
-↓ 
+->
 Final Output
+
 ## 🧩 Project Structure
 
 core/
