@@ -1,3 +1,4 @@
+print(">>> CALCULATOR.PY IS EXECUTING <<<")
 def calculate(expression: str) -> str:
     """
     Executes a simple mathematical calculation safely.
