@@ -51,25 +51,24 @@ Memory Module
 ↓ 
 Final Output
 ## 🧩 Project Structure
-ai-agent-framework/
-│
-├── core/
-│ ├── agent.py # Main agent controller
-│ ├── planner.py # Task planning logic
-│ └── reasoning.py # Step-by-step reasoning
-│
-├── memory/
-│ └── memory.py # Memory management
-│
-├── tools/
-│ └── calculator.py # Example tool
-│
-├── docs/
-│ └── architecture.md
-│
-├── main.py # Application entry point
-├── requirements.txt
-└── README.md
+
+core/
+Handles the core intelligence of the AI agent, including task analysis, planning, and reasoning.
+
+memory/
+Manages short-term and long-term memory for maintaining context across interactions.
+
+tools/
+Contains utility tools (such as calculator and helpers) that the agent can invoke when required.
+
+docs/
+Stores architecture diagrams and detailed documentation.
+
+main.py
+Entry point of the application that initializes and runs the AI agent.
+
+requirements.txt
+Lists project dependencies.
 
 ## ⚙️ Technologies Used
  🐍 Python  
