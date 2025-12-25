@@ -11,7 +11,6 @@ def calculate(expression: str) -> str:
     try:
         expression = expression.strip()
 
-        # If expression is empty, return error
         if not expression:
             return "Invalid calculation"
 
